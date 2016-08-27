@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="quehacer_title">¿Qué hacer?</string>
+    <string name="quehacer_description">Disfruta de una variedad de actividades extraordinarias.</string>
+    <string name="quehacer_action">Explora</string>
 </resources>
