@@ -179,9 +179,8 @@ public class MainActivity extends AppCompatActivity
                     public void onResult(PlaceLikelihoodBuffer likelyPlaces) {
                         for (PlaceLikelihood placeLikelihood : likelyPlaces) {
                             Place place = placeLikelihood.getPlace();
-                            place.freeze();
-                            mPlaces.add(place);
-                            Log.i(TAG, String.format("Place '%s' has likelihood: %g",
+                            mPlaces.add(place.freeze());
+                            Log.i(TAG, String.format("Plaaaaaace '%s' has likelihood: %g",
 
                                     placeLikelihood.getPlace().getName(),
                                     placeLikelihood.getLikelihood()));
