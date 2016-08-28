@@ -12,9 +12,9 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="transporte_title">Transporte</string>
-    <string name="transporte_description">Elige la forma que mas te conviene para transportarte.</string>
-    <string name="transporte_action">Elegir</string>
+    <string name="paseos_title">Paseos extraordinarios</string>
+    <string name="paseos_description">Disfruta cuatro paseos por diversos destinos y atractivos turísticos donde vivirás experiencias extraordinarias.</string>
+    <string name="paseos_action">Descubre</string>
 
     <string name="hoteles_title">Hoteles</string>
     <string name="hoteles_description">Sin duda en Nuevo León encontrarás un lugar ideal para hospedarte con todos los servicios y comodidades que estás buscando.</string>
@@ -37,4 +37,16 @@
     <string name="estadioTec_description">El Estadio Tecnológico fue inaugurado el 17 de julio de 1950 por el presidente Miguel Alemán Valdés. La construcción original tenía una capacidad para 19,000 espectadores, misma que se amplió a 33,500 en 1965. Las instalaciones del estadio se han modernizado a través del tiempo. La tribuna volada se construyó en 1966; la herradura de la parte norte en 1986 y la superficie atlética de tartán, primera en el país, en 1991. En 1986, el estadio fue subsede del Campeonato Mundial de Fútbol celebrado en México. Hoy en día es sede de importantes partidos de fútbol soccer y de los partidos del equipo de fútbol americano Borregos Salvajes del Tecnológico de Monterrey, Campus Monterrey.</string>
 
     <string name="festival_desc">Toda gran ciudad tiene su Festival. El de Monterrey, Nuevo León, México es el Festival Internacional de Santa Lucía, el cual tiene como propósito impulsar el talento local, aunado a la presencia de expresiones artísticas y culturales de otros países.</string>
+
+    <string name="paseos_extraordinarios">Paseos Extraordinarios</string>
+    <string name="paseo_norte">Paseo Norte</string>
+    <string name="paseo_norte_des">Un paseo que combina sitios representativos por su acervo histórico, parajes y parques naturales..</string>
+    <string name="conoce_mas">conoce mas</string>
+    <string name="paseo_magico">Paseo Mágico</string>
+    <string name="paseo_magico_des">Un paseo en el cual te sorprenderás con la riqueza cultural de Santiago y Linares, Municipios declarados Pueblos Mágicos.</string>
+    <string name="paseo_sur">Paseo Sur</string>
+    <string name="paseo_sur_des">Un paseo para disfrutar el turismo de aventura en sus diversos y majestuosos atractivos naturales enclavados en una de las sierras montañosas que caracterizan al estado.</string>
+    <string name="parques_extraordinarios">Parques Extraordinarios</string>
+    <string name="parques_extraordinarios_des">Un paseo por los parques más emblemáticos del Estado. Una experiencia extraordinaria por espacios naturales que cuentan la historia de millones de años de nuestro planeta.</string>
+
 </resources>

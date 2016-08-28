@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_transporte"
             android:icon="@drawable/ic_airplanemode_active_black_24dp"
-            android:title="Transporte" />
+            android:title="Paseos extraordinarios" />
         <item
             android:id="@+id/nav_hoteles"
             android:icon="@drawable/ic_hotel_black_24dp"

@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_quehacer) {
             setFragment(1);
         } else if (id == R.id.nav_transporte) {
-
+            setFragment(2);
         } else if (id == R.id.nav_hoteles) {
 
         } else if (id == R.id.nav_eventos) {
@@ -149,6 +149,12 @@ public class MainActivity extends AppCompatActivity
                 setTitle("Explora");
                 QueHacerFragment fragment = new QueHacerFragment();
                 fragmentTransaction.replace(R.id.fragment, fragment);
+                fragmentTransaction.commit();
+                break;
+            case 2:
+                setTitle("Paseos Extraordinarios");
+                PaseosFragment paseosFragment = new PaseosFragment();
+                fragmentTransaction.replace(R.id.fragment, paseosFragment);
                 fragmentTransaction.commit();
                 break;
             case 4:
