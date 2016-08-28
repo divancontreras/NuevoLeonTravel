@@ -48,5 +48,18 @@
     <string name="parques_extraordinarios_des">Un paseo por los parques más emblemáticos del Estado. Una experiencia extraordinaria por espacios naturales que cuentan la historia de millones de años de nuestro planeta.</string>
     <string name="paseo_magico_des">A walk in which you will be surprised with the cultural richness of Santiago and Linares, Municipalities declared Magical Towns.</string>
     <string name="paseo_sur_des">A walk to enjoy adventure tourism in its various natural attractions and majestic nestled in one of the mountain ranges that characterize the state.</string>
+    <string name="event">Eventos</string>
+    <string name="event_title">Festival Santa Lucía</string>
+    <string name="more">Conoce más</string>
+    <string name="nav_ajustes">Ajustes</string>
+    <string name="nav_cuenta">Cuenta</string>
+    <string name="nav_eventos">Event</string>
+    <string name="nav_hoteles">Hoteles</string>
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_quehacer">¿Qué hacer?</string>
+    <string name="nav_transporte">Paseos Extraordinarios</string>
+    <string name="primera_vez">¿Es tu primera vez visitando Nuevo León?</string>
+    <string name="save">Guardar</string>
+    <string name="yes">Sí</string>
 
 </resources>

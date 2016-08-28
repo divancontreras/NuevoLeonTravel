@@ -39,13 +39,13 @@
 
     <string name="estadioTec_name">Tecnológico Stadium</string>
     <string name="estadioTec_phone">+52 (81) 83582000</string>
-    <string name="primera_vez">¿Es tu primera vez visitando Nuevo León?</string>
+    <string name="primera_vez">Is this your first time in Nuevo León?</string>
     <string name="estadioTec_website">www.itesm.mx</string>
-    <string name="yes">Sí</string>
-    <string name="save">Guardar</string>
-    <string name="event">Eventos</string>
-    <string name="more">Conoce más</string>
-    <string name="event_title">Festival Santa Lucía</string>
+    <string name="yes">Yes</string>
+    <string name="save">Save</string>
+    <string name="event">Events</string>
+    <string name="more">More</string>
+    <string name="event_title">Santa Lucía Festival</string>
     <string name="estadioTec_address">Junco de la Vega S/N, Tecnológico, Monterrey, Nuevo León, México. CP. 64849.</string>
     <string name="estadioTec_description">The Tecnológico stadium was opened july 17, 1950 by mexican presiden Miguel Alemán Valdés. The original construction had a 19,000 people capacity, it was then extended to 35,000 in 1965. In 1986, the stadium was home of the World Cup celebrated in Mexico. Today it hosts important soccer matches and college footbal team "Borregos Salvajes" from Tec de Monterrey, Campus Monterrey.</string>
 
