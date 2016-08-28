@@ -8,13 +8,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.location.places.Place;
+
 import java.util.List;
 
 public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceViewHolder> {
     Context mContext;
-    List<String> mPlaces;
+    List<Place> mPlaces;
 
-    public PlaceAdapter(Context context, List<String> places) {
+    public PlaceAdapter(Context context, List<Place> places) {
         mContext = context;
         mPlaces = places;
     }
@@ -29,7 +31,10 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceViewHol
 
     @Override
     public void onBindViewHolder(PlaceViewHolder holder, int position) {
-        holder.mPlaceName.setText(mPlaces.get(position));
+        Place place = mPlaces.get(position);
+        holder.mPlaceName.setText(place.getName());
+        holder.mPlaceAddress.setText(place.getAddress());
+        holder.mPlacePhone.setText(place.getPhoneNumber());
     }
 
     @Override

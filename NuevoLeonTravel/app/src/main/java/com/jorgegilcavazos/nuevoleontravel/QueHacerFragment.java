@@ -31,6 +31,9 @@ public class QueHacerFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        MainActivity mainActivity = (MainActivity) getActivity();
+
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.fragment_que_hacer, container, false);
 
@@ -39,15 +42,7 @@ public class QueHacerFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setNestedScrollingEnabled(false);
 
-        List<String> places = new ArrayList<>();
-        places.add("Hola");
-        places.add("Como");
-        places.add("Esta");
-        places.add("Bien");
-        places.add("Gracias");
-        places.add("Ok");
-
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+        PlaceAdapter adapter = new PlaceAdapter(mainActivity, mainActivity.getPlaces());
         mRecyclerView.setAdapter(adapter);
 
         return rootView;
