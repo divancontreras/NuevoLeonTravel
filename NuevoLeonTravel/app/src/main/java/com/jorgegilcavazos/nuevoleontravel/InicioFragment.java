@@ -39,6 +39,15 @@ public class InicioFragment extends Fragment {
             }
         });
 
+        Button exploreButton = (Button) view.findViewById(R.id.card1_button);
+        exploreButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity mainActivity = (MainActivity) getActivity();
+                mainActivity.setFragment(1);
+            }
+        });
+
         return view;
     }
 

@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity
     private static final String TAG = "MainActivity";
     private static final int MY_LOCATION_PERMISSION = 0;
     private GoogleApiClient mGoogleApiClient;
+    private int selectedFragment;
 
     private List<Place> mPlaces;
 
@@ -73,16 +74,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-    }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
     }
 
     @Override
@@ -134,7 +125,8 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void setFragment(int fragmentId) {
+    public void setFragment(int fragmentId) {
+        selectedFragment = fragmentId;
         android.support.v4.app.FragmentManager fragmentManager;
         FragmentTransaction fragmentTransaction;
 
@@ -234,7 +226,23 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public List<Place> getPlaces() {
-        return mPlaces;
+    @Override
+    public void onBackPressed() {
+        switch (selectedFragment) {
+            case 0:
+                // Exit application.
+                super.onBackPressed();
+                break;
+            default:
+                // Return to main fragment.
+                setFragment(0);
+                NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                navigationView.getMenu().getItem(0).setChecked(true);
+                break;
+        }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        }
     }
 }
