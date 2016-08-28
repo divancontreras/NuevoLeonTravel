@@ -23,4 +23,8 @@
     <string name="eventos_title">Eventos</string>
     <string name="eventos_description">Consulta aquí el calendario de los eventos más destacados que se realizarán en Nuevo León.</string>
     <string name="eventos_action">Consultar</string>
+
+    <string name="golfHerradura_address">Carretera Nacional km 266 Av. Portal del Huajuco, La Herradura, 64890 Monterrey, N.L.</string>
+    <string name="golfHerradura_description">La Herradura fue concebido para brindarle a las familias diversión, confort y exclusividad. Envuelto en la belleza natural que nos brinda el Cañón del Huajuco, La Herradura esta rodeado de lagos, montañas y más de 600,000 metros de áreas verdes.</string>
+
 </resources>

@@ -17,14 +17,14 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/pizza"/>
+            android:src="@drawable/image_golf_herradura"/>
 
         <TextView
             android:id="@+id/place_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/place_image"
-            android:text="Dominos Pizza"
+            android:text="Club de Golf La Herradura"
             android:textSize="26sp"
             android:padding="5dp"
             android:textColor="@color/primaryText"/>
@@ -36,14 +36,15 @@
             android:layout_below="@id/place_name"
             android:textSize="20sp"
             android:padding="5dp"
-            android:text="4.5/5"/>
+            android:text="4.3/5"
+            android:textColor="@color/colorPrimary"/>
 
         <TextView
             android:id="@+id/place_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/place_rating"
-            android:text="8119764536"
+            android:text="+52 (81) 81041040"
             android:textSize="16sp"
             android:padding="3dp"
             android:textColor="@color/secondaryText"/>
@@ -54,20 +55,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/place_phone"
-            android:text="3124 calle pepe, colonia pepa."
+            android:text="@string/golfHerradura_address"
             android:textSize="16sp"
             android:padding="3dp"
             android:textColor="@color/secondaryText"/>
 
         <TextView
-            android:id="@+id/place_open"
+            android:id="@+id/place_website"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/place_address"
-            android:text="Abierto ahora: 10am - 8pm"
+            android:text="www.laherradura.com.mx"
             android:textSize="16sp"
             android:padding="3dp"
-            android:textColor="@color/secondaryText"/>
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/place_description_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/place_website"
+            android:text="Descripción:"
+            android:textSize="16sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/place_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/place_description_title"
+            android:text="@string/golfHerradura_description"
+            android:textSize="14sp"
+            android:padding="3dp"/>
 
         <Button
             android:id="@+id/card1_button"
@@ -75,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_below="@id/place_open"
+            android:layout_below="@id/place_website"
             android:text="guardar"
             android:textSize="16sp"
             android:layout_margin="10dp"
