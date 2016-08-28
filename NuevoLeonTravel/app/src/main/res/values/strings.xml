@@ -9,4 +9,7 @@
     <string name="quehacer_title">¿Qué hacer?</string>
     <string name="quehacer_description">Disfruta de una variedad de actividades extraordinarias.</string>
     <string name="quehacer_action">Explora</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
