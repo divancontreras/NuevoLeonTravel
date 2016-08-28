@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,14 +38,19 @@ public class QueHacerFragment extends Fragment {
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.fragment_que_hacer, container, false);
 
+        GridView gridView = (GridView) rootView.findViewById(R.id.gridview);
+        gridView.setAdapter(new CategoryAdapter(mainActivity));
+
+        /*
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.quehacer_rv);
         mLayoutManager = new LinearLayoutManager(getActivity());
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setNestedScrollingEnabled(false);
 
+
         PlaceAdapter adapter = new PlaceAdapter(mainActivity, mainActivity.getPlaces());
         mRecyclerView.setAdapter(adapter);
-
+        */
         return rootView;
     }
 
