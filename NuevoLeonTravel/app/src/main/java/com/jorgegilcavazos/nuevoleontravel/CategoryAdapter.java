@@ -40,10 +40,10 @@ public class CategoryAdapter extends BaseAdapter {
     }
 
     private Integer[] mThumbIds = {
-            R.drawable.aventura, R.drawable.aventura,
-            R.drawable.aventura, R.drawable.aventura,
-            R.drawable.aventura, R.drawable.aventura,
-            R.drawable.aventura, R.drawable.aventura,
+            R.drawable.aventura, R.drawable.rurales,
+            R.drawable.urbanos, R.drawable.paseos,
+            R.drawable.cultura, R.drawable.deportes,
+            R.drawable.comida, R.drawable.compras,
     };
 
     private String[] mCategoryNames = {
