@@ -15,7 +15,6 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/slide_image1"
-
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"/>
 

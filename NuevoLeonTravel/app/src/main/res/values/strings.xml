@@ -10,6 +10,8 @@
     <string name="quehacer_description">Disfruta de una variedad de actividades extraordinarias.</string>
     <string name="quehacer_action">Explora</string>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="transporte_title">Transporte</string>
     <string name="transporte_description">Elige la forma que mas te conviene para transportarte.</string>
     <string name="transporte_action">Elegir</string>
