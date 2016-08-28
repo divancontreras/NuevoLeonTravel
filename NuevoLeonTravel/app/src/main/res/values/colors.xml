@@ -7,4 +7,6 @@
     <color name="secondaryText">#757575</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="transparentBlack">#80000000</color>
+
+    <color name="fushia">#E040FB</color>
 </resources>
