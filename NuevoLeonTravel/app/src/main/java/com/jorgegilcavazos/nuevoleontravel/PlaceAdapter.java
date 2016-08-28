@@ -44,7 +44,7 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceViewHol
 
     public static class PlaceViewHolder extends RecyclerView.ViewHolder {
         public ImageView mPlaceImage;
-        public TextView mPlaceName, mPlaceRating, mPlacePhone, mPlaceAddress, mPlaceOpen;
+        public TextView mPlaceName, mPlaceRating, mPlacePhone, mPlaceAddress, mPlaceOpen, mPlaceDescriptionTitle, mPlaceDescription;
 
         public PlaceViewHolder(View view) {
             super(view);
@@ -53,7 +53,9 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceViewHol
             mPlacePhone = (TextView) view.findViewById(R.id.place_phone);
             mPlaceAddress = (TextView) view.findViewById(R.id.place_address);
             mPlaceRating = (TextView) view.findViewById(R.id.place_rating);
-            mPlaceOpen = (TextView) view.findViewById(R.id.place_open);
+            mPlaceOpen = (TextView) view.findViewById(R.id.place_website);
+            mPlaceDescriptionTitle = (TextView) view.findViewById(R.id.place_description_title);
+            mPlaceDescription = (TextView) view.findViewById(R.id.place_description);
         }
     }
 }
