@@ -83,33 +83,59 @@
                 android:text="4.3/5"
                 android:textColor="@color/colorPrimary"
                 android:visibility="gone"/>
-
+            <ImageView
+                android:id="@+id/interes_phone_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/interes_star1"
+                android:src="@drawable/ic_call_black_24dp"/>
             <TextView
                 android:id="@+id/interes_phone"
+                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/interes_phone_icon"
                 android:layout_below="@id/interes_star1"
                 android:text="@string/golfHerradura_phone"
                 android:textSize="16sp"
                 android:padding="5dp"
                 android:textColor="@color/secondaryText"/>
 
-
+            <ImageView
+                android:id="@+id/interes_location_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/interes_phone_icon"
+                android:src="@drawable/ic_location_on_black_24dp"/>
             <TextView
                 android:id="@+id/interes_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/interes_phone"
+                android:layout_toRightOf="@id/interes_location_icon"
                 android:text="@string/golfHerradura_address"
                 android:textSize="16sp"
                 android:padding="5dp"
                 android:textColor="@color/secondaryText"/>
+            <ImageView
+                android:id="@+id/interes_web_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/interes_location_icon"
+                android:src="@drawable/ic_language_black_24dp"/>
 
             <TextView
                 android:id="@+id/interes_website"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/interes_address"
+                android:layout_toRightOf="@id/interes_web_icon"
                 android:text="www.laherradura.com.mx"
                 android:textSize="16sp"
                 android:padding="5dp"
