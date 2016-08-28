@@ -5,36 +5,36 @@
         <item
             android:id="@+id/nav_inicio"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Home" />
+            android:title="@string/nav_inicio" />
         <item
             android:id="@+id/nav_quehacer"
             android:icon="@drawable/ic_local_activity_black_24dp"
-            android:title="¿Qué hacer?" />
+            android:title="@string/nav_quehacer" />
         <item
             android:id="@+id/nav_transporte"
             android:icon="@drawable/icone_balade"
-            android:title="Paseos extraordinarios" />
+            android:title="@string/nav_transporte" />
         <item
             android:id="@+id/nav_hoteles"
             android:icon="@drawable/ic_hotel_black_24dp"
-            android:title="Hoteles" />
+            android:title="@string/nav_hoteles" />
         <item
             android:id="@+id/nav_eventos"
             android:icon="@drawable/ic_event_black_24dp"
-            android:title="Eventos" />
+            android:title="@string/nav_eventos" />
 
     </group>
 
-    <item android:title="Configuración">
+    <item android:title="@string/configuracion">
         <menu>
             <item
                 android:id="@+id/nav_cuenta"
                 android:icon="@drawable/ic_account_circle_black_24dp"
-                android:title="Cuenta" />
+                android:title="@string/nav_cuenta" />
             <item
                 android:id="@+id/nav_ajustes"
                 android:icon="@drawable/ic_build_black_24dp"
-                android:title="Ajustes" />
+                android:title="@string/nav_ajustes" />
         </menu>
     </item>
 
