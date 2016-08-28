@@ -2,108 +2,143 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardView"
-    android:layout_margin="16dp"
+    android:layout_margin="10dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center">
 
-    <RelativeLayout
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/place_image"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:src="@drawable/image_golf_herradura"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/place_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_image"
-            android:text="Club de Golf La Herradura"
-            android:textSize="26sp"
-            android:padding="5dp"
-            android:textColor="@color/primaryText"/>
+            <ImageView
+                android:id="@+id/interes_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/image_golf_herradura"/>
 
-        <TextView
-            android:id="@+id/place_rating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_name"
-            android:textSize="20sp"
-            android:padding="5dp"
-            android:text="4.3/5"
-            android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/interes_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_image"
+                android:text="@string/golfHerradura_name"
+                android:textSize="26sp"
+                android:padding="5dp"
+                android:textColor="@color/primaryText"/>
 
-        <TextView
-            android:id="@+id/place_phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_rating"
-            android:text="+52 (81) 81041040"
-            android:textSize="16sp"
-            android:padding="3dp"
-            android:textColor="@color/secondaryText"/>
+            <ImageView
+                android:id="@+id/interes_star1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/interes_name"
+                android:src="@drawable/ic_star_black_24dp" />
 
+            <ImageView
+                android:id="@+id/interes_star2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/interes_name"
+                android:layout_toRightOf="@id/interes_star1"
+                android:src="@drawable/ic_star_black_24dp" />
 
-        <TextView
-            android:id="@+id/place_address"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_phone"
-            android:text="@string/golfHerradura_address"
-            android:textSize="16sp"
-            android:padding="3dp"
-            android:textColor="@color/secondaryText"/>
+            <ImageView
+                android:id="@+id/interes_star3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/interes_name"
+                android:layout_toRightOf="@id/interes_star2"
+                android:src="@drawable/ic_star_black_24dp" />
 
-        <TextView
-            android:id="@+id/place_website"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_address"
-            android:text="www.laherradura.com.mx"
-            android:textSize="16sp"
-            android:padding="3dp"
-            android:textColor="@color/colorAccent"/>
+            <ImageView
+                android:id="@+id/interes_star4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/interes_name"
+                android:layout_toRightOf="@id/interes_star3"
+                android:src="@drawable/ic_star_black_24dp" />
 
-        <TextView
-            android:id="@+id/place_description_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_website"
-            android:text="Descripción:"
-            android:textSize="16sp"
-            android:padding="3dp"/>
+            <ImageView
+                android:id="@+id/interes_star5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/interes_name"
+                android:layout_toRightOf="@id/interes_star4"
+                android:src="@drawable/ic_star_half_black_24dp" />
 
-        <TextView
-            android:id="@+id/place_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_description_title"
-            android:text="@string/golfHerradura_description"
-            android:textSize="14sp"
-            android:padding="3dp"/>
+            <TextView
+                android:id="@+id/interes_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_name"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:text="4.3/5"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone"/>
 
-        <Button
-            android:id="@+id/card1_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_below="@id/place_website"
-            android:text="guardar"
-            android:textSize="16sp"
-            android:layout_margin="10dp"
-            android:textColor="@color/colorAccent"
-            android:background="?android:attr/selectableItemBackground"/>
+            <TextView
+                android:id="@+id/interes_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_star1"
+                android:text="@string/golfHerradura_phone"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="@color/secondaryText"/>
 
 
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/interes_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_phone"
+                android:text="@string/golfHerradura_address"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="@color/secondaryText"/>
 
+            <TextView
+                android:id="@+id/interes_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_address"
+                android:text="www.laherradura.com.mx"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="@color/colorAccent"/>
 
+            <TextView
+                android:id="@+id/interes_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/interes_website"
+                android:text="@string/golfHerradura_description"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+
+            <Button
+                android:id="@+id/interes_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/interes_description"
+                android:text="guardar"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorAccent"
+                android:background="?android:attr/selectableItemBackground"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
 
 </android.support.v7.widget.CardView>

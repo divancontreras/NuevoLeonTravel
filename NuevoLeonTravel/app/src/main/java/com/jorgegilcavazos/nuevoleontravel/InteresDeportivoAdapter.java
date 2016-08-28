@@ -51,13 +51,13 @@ public class InteresDeportivoAdapter extends RecyclerView.Adapter<InteresDeporti
 
         public InteresDeportivoViewHolder(View view) {
             super(view);
-            mImage = (ImageView) view.findViewById(R.id.place_image);
-            mName = (TextView) view.findViewById(R.id.place_name);
-            mPhone = (TextView) view.findViewById(R.id.place_phone);
-            mAddress = (TextView) view.findViewById(R.id.place_address);
-            mRating = (TextView) view.findViewById(R.id.place_rating);
-            mWebsite = (TextView) view.findViewById(R.id.place_website);
-            mDescription = (TextView) view.findViewById(R.id.place_open);
+            mImage = (ImageView) view.findViewById(R.id.interes_image);
+            mName = (TextView) view.findViewById(R.id.interes_name);
+            mPhone = (TextView) view.findViewById(R.id.interes_phone);
+            mAddress = (TextView) view.findViewById(R.id.interes_address);
+            mRating = (TextView) view.findViewById(R.id.interes_rating);
+            mWebsite = (TextView) view.findViewById(R.id.interes_website);
+            mDescription = (TextView) view.findViewById(R.id.interes_description);
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.jorgegilcavazos.nuevoleontravel;
 
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -24,6 +25,22 @@ public class InterestActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         List<InteresDeportivo> interesDeportivos = new ArrayList<>();
+        interesDeportivos.add(new InteresDeportivo(
+                getResources().getString(R.string.estadioTec_name),
+                getResources().getString(R.string.estadioTec_address),
+                getResources().getString(R.string.estadioTec_phone),
+                getResources().getString(R.string.estadioTec_website),
+                getResources().getString(R.string.estadioTec_description),
+                R.drawable.estadio,
+                4));
+        interesDeportivos.add(new InteresDeportivo(
+                getResources().getString(R.string.golfHerradura_name),
+                getResources().getString(R.string.golfHerradura_address),
+                getResources().getString(R.string.golfHerradura_phone),
+                getResources().getString(R.string.golfHerradura_website),
+                getResources().getString(R.string.golfHerradura_description),
+                R.drawable.image_golf_herradura,
+                5));
 
         recyclerView.setAdapter(new InteresDeportivoAdapter(this, interesDeportivos));
     }

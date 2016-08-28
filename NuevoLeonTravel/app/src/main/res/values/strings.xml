@@ -24,7 +24,16 @@
     <string name="eventos_description">Consulta aquí el calendario de los eventos más destacados que se realizarán en Nuevo León.</string>
     <string name="eventos_action">Consultar</string>
 
+    <string name="golfHerradura_name">Club de Golf La Herradura</string>
+    <string name="golfHerradura_phone">+52 (81) 81041040</string>
+    <string name="golfHerradura_website">www.laherradura.com.mx</string>
     <string name="golfHerradura_address">Carretera Nacional km 266 Av. Portal del Huajuco, La Herradura, 64890 Monterrey, N.L.</string>
     <string name="golfHerradura_description">La Herradura fue concebido para brindarle a las familias diversión, confort y exclusividad. Envuelto en la belleza natural que nos brinda el Cañón del Huajuco, La Herradura esta rodeado de lagos, montañas y más de 600,000 metros de áreas verdes.</string>
+
+    <string name="estadioTec_name">Estadio Tecnológico</string>
+    <string name="estadioTec_phone">+52 (81) 83582000</string>
+    <string name="estadioTec_website">www.itesm.mx</string>
+    <string name="estadioTec_address">Junco de la Vega S/N, Tecnológico, Monterrey, Nuevo León, México. CP. 64849.</string>
+    <string name="estadioTec_description">El Estadio Tecnológico fue inaugurado el 17 de julio de 1950 por el presidente Miguel Alemán Valdés. La construcción original tenía una capacidad para 19,000 espectadores, misma que se amplió a 33,500 en 1965. Las instalaciones del estadio se han modernizado a través del tiempo. La tribuna volada se construyó en 1966; la herradura de la parte norte en 1986 y la superficie atlética de tartán, primera en el país, en 1991. En 1986, el estadio fue subsede del Campeonato Mundial de Fútbol celebrado en México. Hoy en día es sede de importantes partidos de fútbol soccer y de los partidos del equipo de fútbol americano Borregos Salvajes del Tecnológico de Monterrey, Campus Monterrey.</string>
 
 </resources>
