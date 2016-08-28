@@ -8,12 +8,12 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_quehacer"
-            android:icon="@drawable/icone_balade"
+            android:icon="@drawable/ic_local_activity_black_24dp"
             android:title="¿Qué hacer?" />
         <item
             android:id="@+id/nav_transporte"
-            android:icon="@drawable/ic_airplanemode_active_black_24dp"
-            android:title="Transporte" />
+            android:icon="@drawable/icone_balade"
+            android:title="Paseos extraordinarios" />
         <item
             android:id="@+id/nav_hoteles"
             android:icon="@drawable/ic_hotel_black_24dp"

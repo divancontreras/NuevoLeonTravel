@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.support.design.widget.NavigationView;
@@ -40,6 +41,9 @@ public class MainActivity extends AppCompatActivity
     private static final String TAG = "MainActivity";
     private static final int MY_LOCATION_PERMISSION = 0;
     private GoogleApiClient mGoogleApiClient;
+    private int selectedFragment;
+    private NavigationView mNavigationView;
+    private NestedScrollView mNestedScrollView;
 
     private List<Place> mPlaces;
 
@@ -49,6 +53,9 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        mNestedScrollView = (NestedScrollView) findViewById(R.id.nestedScrollView);
 
         setFragment(0);
 
@@ -60,7 +67,7 @@ public class MainActivity extends AppCompatActivity
                 .addApi(Places.GEO_DATA_API)
                 .enableAutoManage(this, this)
                 .build();
-        //new FetchCurrentPlacesTask().execute();
+        new FetchCurrentPlacesTask().execute();
 
 
         //Picasso.with(this).load(imageUrl).fit().centerCrop().into(toolbarImageView);
@@ -73,16 +80,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-    }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
     }
 
     @Override
@@ -118,11 +115,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_quehacer) {
             setFragment(1);
         } else if (id == R.id.nav_transporte) {
-
+            setFragment(2);
         } else if (id == R.id.nav_hoteles) {
 
         } else if (id == R.id.nav_eventos) {
-
+            setFragment(4);
         } else if (id == R.id.nav_cuenta) {
 
         }else if (id == R.id.nav_ajustes) {
@@ -134,7 +131,8 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void setFragment(int fragmentId) {
+    public void setFragment(int fragmentId) {
+        selectedFragment = fragmentId;
         android.support.v4.app.FragmentManager fragmentManager;
         FragmentTransaction fragmentTransaction;
 
@@ -153,7 +151,21 @@ public class MainActivity extends AppCompatActivity
                 fragmentTransaction.replace(R.id.fragment, fragment);
                 fragmentTransaction.commit();
                 break;
+            case 2:
+                setTitle("Paseos Extraordinarios");
+                PaseosFragment paseosFragment = new PaseosFragment();
+                fragmentTransaction.replace(R.id.fragment, paseosFragment);
+                fragmentTransaction.commit();
+                break;
+            case 4:
+                setTitle("Eventos");
+                EventosFragment eventosFragment = new EventosFragment();
+                fragmentTransaction.replace(R.id.fragment, eventosFragment);
+                fragmentTransaction.commit();
+                break;
         }
+        mNavigationView.getMenu().getItem(fragmentId).setChecked(true);
+        scrollToTop();
     }
 
     private void getPermission() {
@@ -234,7 +246,25 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public List<Place> getPlaces() {
-        return mPlaces;
+    @Override
+    public void onBackPressed() {
+        switch (selectedFragment) {
+            case 0:
+                // Exit application.
+                super.onBackPressed();
+                break;
+            default:
+                // Return to main fragment.
+                setFragment(0);
+                break;
+        }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        }
+    }
+
+    public void scrollToTop() {
+        mNestedScrollView.fullScroll(View.FOCUS_UP);
     }
 }
