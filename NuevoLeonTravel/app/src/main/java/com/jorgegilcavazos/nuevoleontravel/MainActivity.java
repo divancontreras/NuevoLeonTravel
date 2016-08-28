@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity
                 .addApi(Places.GEO_DATA_API)
                 .enableAutoManage(this, this)
                 .build();
-        //new FetchCurrentPlacesTask().execute();
+        new FetchCurrentPlacesTask().execute();
 
 
         //Picasso.with(this).load(imageUrl).fit().centerCrop().into(toolbarImageView);
