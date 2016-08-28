@@ -10,6 +10,17 @@
     <string name="quehacer_description">Disfruta de una variedad de actividades extraordinarias.</string>
     <string name="quehacer_action">Explora</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="transporte_title">Transporte</string>
+    <string name="transporte_description">Elige la forma que mas te conviene para transportarte.</string>
+    <string name="transporte_action">Elegir</string>
+
+    <string name="hoteles_title">Hoteles</string>
+    <string name="hoteles_description">Sin duda en Nuevo León encontrarás un lugar ideal para hospedarte con todos los servicios y comodidades que estás buscando.</string>
+    <string name="hoteles_action">Buscar</string>
+
+    <string name="eventos_title">Eventos</string>
+    <string name="eventos_description">Consulta aquí el calendario de los eventos más destacados que se realizarán en Nuevo León.</string>
+    <string name="eventos_action">Consultar</string>
 </resources>
