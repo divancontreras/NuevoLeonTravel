@@ -6,31 +6,30 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="quehacer_title">¿Qué hacer?</string>
-    <string name="quehacer_description">Disfruta de una variedad de actividades extraordinarias.</string>
-    <string name="quehacer_action">Explora</string>
+    <string name="quehacer_title">What to do?</string>
+    <string name="quehacer_description">Enjoy a variety of special activities.</string>
+    <string name="quehacer_action">Explore</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="paseos_title">Paseos extraordinarios</string>
-    <string name="paseos_description">Disfruta cuatro paseos por diversos destinos y atractivos turísticos donde vivirás experiencias extraordinarias.</string>
-    <string name="paseos_action">Descubre</string>
+    <string name="paseos_title">Extraordinary tours</string>
+    <string name="paseos_description">Enjoy walks four different destinations and tourist attractions where live extraordinary experiences.</string>
+    <string name="paseos_action">Discover</string>
 
-    <string name="hoteles_title">Hoteles</string>
-    <string name="hoteles_description">Sin duda en Nuevo León encontrarás un lugar ideal para hospedarte con todos los servicios y comodidades que estás buscando.</string>
-    <string name="hoteles_action">Buscar</string>
+    <string name="hoteles_title">Hotels</string>
+    <string name="hoteles_description">You  will certainly find a place to stay in Nuevo Leon with the services and commodities you need.</string>
+    <string name="hoteles_action">Search</string>
 
-    <string name="eventos_title">Eventos</string>
-    <string name="eventos_description">Consulta aquí el calendario de los eventos más destacados que se realizarán en Nuevo León.</string>
-    <string name="eventos_action">Consultar</string>
+    <string name="eventos_title">Events</string>
+    <string name="eventos_action">Browse</string>
 
-    <string name="golfHerradura_name">Club de Golf La Herradura</string>
+    <string name="golfHerradura_name">Golf Club "La Herradura"</string>
     <string name="golfHerradura_phone">+52 (81) 81041040</string>
     <string name="golfHerradura_website">www.laherradura.com.mx</string>
     <string name="golfHerradura_address">Carretera Nacional km 266 Av. Portal del Huajuco, La Herradura, 64890 Monterrey, N.L.</string>
-    <string name="golfHerradura_description">La Herradura fue concebido para brindarle a las familias diversión, confort y exclusividad. Envuelto en la belleza natural que nos brinda el Cañón del Huajuco, La Herradura esta rodeado de lagos, montañas y más de 600,000 metros de áreas verdes.</string>
+    <string name="golfHerradura_description">La Herradura was made to bring joy, comfort and exclusivity to families. Deep in the natural beauty that is the Huajuco Canyon, La Herradura is surrounded by lakes, mountains and more than 600,000 m of green areas.</string>
 
-    <string name="estadioTec_name">Estadio Tecnológico</string>
+    <string name="estadioTec_name">Tecnológico Stadium</string>
     <string name="estadioTec_phone">+52 (81) 83582000</string>
     <string name="primera_vez">¿Es tu primera vez visitando Nuevo León?</string>
     <string name="estadioTec_website">www.itesm.mx</string>
@@ -40,19 +39,20 @@
     <string name="more">Conoce más</string>
     <string name="event_title">Festival Santa Lucía</string>
     <string name="estadioTec_address">Junco de la Vega S/N, Tecnológico, Monterrey, Nuevo León, México. CP. 64849.</string>
-    <string name="estadioTec_description">El Estadio Tecnológico fue inaugurado el 17 de julio de 1950 por el presidente Miguel Alemán Valdés. La construcción original tenía una capacidad para 19,000 espectadores, misma que se amplió a 33,500 en 1965. Las instalaciones del estadio se han modernizado a través del tiempo. La tribuna volada se construyó en 1966; la herradura de la parte norte en 1986 y la superficie atlética de tartán, primera en el país, en 1991. En 1986, el estadio fue subsede del Campeonato Mundial de Fútbol celebrado en México. Hoy en día es sede de importantes partidos de fútbol soccer y de los partidos del equipo de fútbol americano Borregos Salvajes del Tecnológico de Monterrey, Campus Monterrey.</string>
+    <string name="estadioTec_description">The Tecnológico stadium was opened july 17, 1950 by mexican presiden Miguel Alemán Valdés. The original construction had a 19,000 people capacity, it was then extended to 35,000 in 1965. In 1986, the stadium was home of the World Cup celebrated in Mexico. Today it hosts important soccer matches and college footbal team "Borregos Salvajes" from Tec de Monterrey, Campus Monterrey.</string>
 
-    <string name="festival_desc">Toda gran ciudad tiene su Festival. El de Monterrey, Nuevo León, México es el Festival Internacional de Santa Lucía, el cual tiene como propósito impulsar el talento local, aunado a la presencia de expresiones artísticas y culturales de otros países.</string>
+    <string name="festival_desc">Every big city has its own festival. Monterrey´s hosts the International Santa Lucía Festival, you can find art and culture from other contries.</string>
 
-    <string name="paseos_extraordinarios">Paseos Extraordinarios</string>
-    <string name="paseo_norte">Paseo Norte</string>
-    <string name="paseo_norte_des">Un paseo que combina sitios representativos por su acervo histórico, parajes y parques naturales..</string>
-    <string name="conoce_mas">conoce mas</string>
-    <string name="paseo_magico">Paseo Mágico</string>
+    <string name="paseos_extraordinarios">Extraordinary Tours</string>
+    <string name="paseo_norte">North Tour</string>
+    <string name="paseo_norte_des">A walk that combines representative sites for its historical heritage, landscapes and natural parks.</string>
+    <string name="conoce_mas">more</string>
+    <string name="paseo_magico">Magical Tour</string>
     <string name="paseo_magico_des">Un paseo en el cual te sorprenderás con la riqueza cultural de Santiago y Linares, Municipios declarados Pueblos Mágicos.</string>
-    <string name="paseo_sur">Paseo Sur</string>
+    <string name="paseo_sur">South Tour</string>
     <string name="paseo_sur_des">Un paseo para disfrutar el turismo de aventura en sus diversos y majestuosos atractivos naturales enclavados en una de las sierras montañosas que caracterizan al estado.</string>
-    <string name="parques_extraordinarios">Parques Extraordinarios</string>
-    <string name="parques_extraordinarios_des">Un paseo por los parques más emblemáticos del Estado. Una experiencia extraordinaria por espacios naturales que cuentan la historia de millones de años de nuestro planeta.</string>
+    <string name="parques_extraordinarios">Extraordinary Parks</string>
+    <string name="eventos_description">Here you will find the schedule with the most popular events in Nuevo León.</string>
+    <string name="parques_extraordinarios_des">A walk through the most emblematic of the state parks. An extraordinary experience natural spaces that tell the story of millions of years of our planet.</string>
 
 </resources>
