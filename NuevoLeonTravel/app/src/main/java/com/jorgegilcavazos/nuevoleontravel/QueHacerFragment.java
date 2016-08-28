@@ -1,6 +1,7 @@
 package com.jorgegilcavazos.nuevoleontravel;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -40,6 +42,14 @@ public class QueHacerFragment extends Fragment {
 
         GridView gridView = (GridView) rootView.findViewById(R.id.gridview);
         gridView.setAdapter(new CategoryAdapter(mainActivity));
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent interestIntent = new Intent(getActivity(), InterestActivity.class);
+                startActivity(interestIntent);
+            }
+        });
 
         /*
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.quehacer_rv);

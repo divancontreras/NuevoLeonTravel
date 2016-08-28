@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jorgegilcavazos.nuevoleontravel">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,9 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDJtWLJGMkD4bgPTSLtLh4zNd_pse7pInY"/>
+            android:value="AIzaSyDJtWLJGMkD4bgPTSLtLh4zNd_pse7pInY" />
+
+        <activity android:name=".InterestActivity"></activity>
     </application>
 
 </manifest>
