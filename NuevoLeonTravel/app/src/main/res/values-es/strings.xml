@@ -62,5 +62,8 @@
     <string name="save">Guardar</string>
     <string name="yes">Sí</string>
     <string name="aventura">Tours de Aventura</string>
+    <string name="response_saved">Respuesta Guardada</string>
+    <string name="deportes">Deportes</string>
+    <string name="configuracion">Configuracion</string>
 
 </resources>

@@ -146,19 +146,19 @@ public class MainActivity extends AppCompatActivity
                 fragmentTransaction.commit();
                 break;
             case 1:
-                setTitle("Explora");
+                setTitle(getResources().getString(R.string.quehacer_action));
                 QueHacerFragment fragment = new QueHacerFragment();
                 fragmentTransaction.replace(R.id.fragment, fragment);
                 fragmentTransaction.commit();
                 break;
             case 2:
-                setTitle("Paseos Extraordinarios");
+                setTitle(getResources().getString(R.string.paseos_extraordinarios));
                 PaseosFragment paseosFragment = new PaseosFragment();
                 fragmentTransaction.replace(R.id.fragment, paseosFragment);
                 fragmentTransaction.commit();
                 break;
             case 4:
-                setTitle("Eventos");
+                setTitle(getResources().getString(R.string.event));
                 EventosFragment eventosFragment = new EventosFragment();
                 fragmentTransaction.replace(R.id.fragment, eventosFragment);
                 fragmentTransaction.commit();

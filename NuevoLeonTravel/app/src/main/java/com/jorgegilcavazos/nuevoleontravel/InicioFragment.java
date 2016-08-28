@@ -72,7 +72,7 @@ public class InicioFragment extends Fragment {
     }
 
     private void showToast(Context context) {
-        Toast.makeText(context, "Respuesta guardada", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, getResources().getString(R.string.response_saved), Toast.LENGTH_SHORT).show();
     }
 
 }

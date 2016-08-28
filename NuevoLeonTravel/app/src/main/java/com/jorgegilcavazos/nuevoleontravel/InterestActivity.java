@@ -22,7 +22,7 @@ public class InterestActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        setTitle("Deportes");
+        setTitle(getResources().getString(R.string.deportes));
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.interest_rv);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,

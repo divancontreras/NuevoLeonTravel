@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">NuevoLeonTravel</string>
 
+    <string name="configuracion">Configuration</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -65,5 +67,8 @@
     <string name="parques_extraordinarios_des">A walk through the most emblematic of the state parks. An extraordinary experience natural spaces that tell the story of millions of years of our planet.</string>
     <string name="event">Events</string>
     <string name="event_title">Santa Lucía Festival</string>
+
+    <string name="response_saved">Response recorded</string>
+    <string name="deportes">Sports</string>
 
 </resources>
