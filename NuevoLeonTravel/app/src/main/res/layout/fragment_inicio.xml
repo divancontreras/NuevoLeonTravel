@@ -29,7 +29,7 @@
         android:layout_below="@id/survey_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="7dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -59,7 +59,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/card1_image"
-                android:padding="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:textColor="@color/secondaryText"
                 android:textSize="16sp"
                 android:text="@string/quehacer_description"/>
@@ -67,7 +69,7 @@
             <Button
                 android:id="@+id/card1_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/card1_description"
                 android:text="@string/quehacer_action"
@@ -82,7 +84,7 @@
         android:layout_below="@id/explora_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="7dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -112,7 +114,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/card2_image"
-                android:padding="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:textColor="@color/secondaryText"
                 android:textSize="16sp"
                 android:text="@string/transporte_description"/>
@@ -120,7 +124,7 @@
             <Button
                 android:id="@+id/card2_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/card2_description"
                 android:text="@string/transporte_action"
@@ -135,7 +139,7 @@
         android:layout_below="@id/transporte_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="7dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -155,7 +159,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/card3_image"
                 android:text="@string/hoteles_title"
-                android:padding="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:background="#80000000"
                 android:textColor="@color/colorWhite"
                 android:textSize="25sp"/>
@@ -165,7 +171,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/card3_image"
-                android:padding="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:textColor="@color/secondaryText"
                 android:textSize="16sp"
                 android:text="@string/hoteles_description"/>
@@ -173,7 +181,7 @@
             <Button
                 android:id="@+id/card3_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/card3_description"
                 android:text="@string/hoteles_action"
@@ -188,7 +196,7 @@
         android:layout_below="@id/hoteles_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="7dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -218,7 +226,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/card4_image"
-                android:padding="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:textColor="@color/secondaryText"
                 android:textSize="16sp"
                 android:text="@string/eventos_description"/>
@@ -226,7 +236,7 @@
             <Button
                 android:id="@+id/card4_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/card4_description"
                 android:text="@string/eventos_action"

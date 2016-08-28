@@ -24,7 +24,7 @@
             <Button
                 android:id="@+id/question_opt2_textView"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/question_text_view"
                 android:text="No"
@@ -34,7 +34,7 @@
             <Button
                 android:id="@+id/question_opt1_textView"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_below="@id/question_text_view"
                 android:layout_toStartOf="@id/question_opt2_textView"
                 android:text="Si"
