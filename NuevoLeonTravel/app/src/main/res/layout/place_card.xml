@@ -158,7 +158,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_below="@id/interes_description"
-                android:text="guardar"
+                android:text="@string/save"
                 android:textSize="16sp"
                 android:layout_margin="10dp"
                 android:textColor="@color/colorAccent"

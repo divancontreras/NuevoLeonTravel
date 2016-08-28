@@ -41,7 +41,7 @@ public class EventosFragment extends Fragment {
         });
 
         final CardView surveyCard = (CardView) view.findViewById(R.id.survey_cardview);
-        Button yesButton = (Button) view.findViewById(R.id.question_yes_button);
+        Button yesButton = (Button) view.findViewById(R.id.question_no_button);
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +49,7 @@ public class EventosFragment extends Fragment {
                 showToast(getActivity());
             }
         });
-        Button noButton = (Button) view.findViewById(R.id.question_no_button);
+        Button noButton = (Button) view.findViewById(R.id.question_yes_button);
         noButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

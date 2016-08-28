@@ -18,12 +18,12 @@
                 android:id="@+id/question_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="¿Es tu primera vez visitando Nuevo León?"
+                android:text="@string/primera_vez"
                 android:textSize="18sp"
                 android:textColor="@color/primaryText"/>
 
             <Button
-                android:id="@+id/question_yes_button"
+                android:id="@+id/question_no_button"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_alignParentEnd="true"
@@ -33,12 +33,12 @@
                 android:background="?android:attr/selectableItemBackground"/>
 
             <Button
-                android:id="@+id/question_no_button"
+                android:id="@+id/question_yes_button"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_below="@id/question_text_view"
-                android:layout_toStartOf="@id/question_yes_button"
-                android:text="Si"
+                android:layout_toStartOf="@id/question_no_button"
+                android:text="@string/yes"
                 android:textColor="@color/colorAccent"
                 android:background="?android:attr/selectableItemBackground"/>
 
