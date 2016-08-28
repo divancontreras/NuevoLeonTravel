@@ -125,9 +125,9 @@
                 android:id="@+id/interes_web_icon"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="5dp"
-                android:layout_below="@id/interes_location_icon"
+                android:layout_below="@id/interes_address"
                 android:src="@drawable/ic_language_black_24dp"/>
 
             <TextView
@@ -135,6 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/interes_address"
+                android:layout_alignTop="@id/interes_web_icon"
                 android:layout_toRightOf="@id/interes_web_icon"
                 android:text="www.laherradura.com.mx"
                 android:textSize="16sp"
@@ -148,7 +149,7 @@
                 android:layout_below="@id/interes_website"
                 android:text="@string/golfHerradura_description"
                 android:textSize="14sp"
-                android:padding="5dp"/>
+                android:padding="10dp"/>
 
             <Button
                 android:id="@+id/interes_button"
